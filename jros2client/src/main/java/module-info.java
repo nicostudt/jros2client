@@ -41,11 +41,13 @@ module jros2client {
 
             // Services in ROS2 are based on custom form of DDS-RPC and therefore they
             // need access to RTPS client
-            jros2services;
+            jros2services,
+            jros2services.tests;
     exports id.jros2client.impl.rmw to
             jros2client.tests,
 
             // Services in ROS2 are based on custom form of DDS-RPC and therefore they
             // need access to DDS logic
-            jros2services;
+            jros2services,
+            jros2services.tests;
 }
