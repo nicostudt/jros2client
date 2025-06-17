@@ -31,7 +31,7 @@ import java.util.EnumSet;
 import java.util.concurrent.Flow.Subscriber;
 
 /**
- * Client to ROS2.
+ * ROS2 client.
  *
  * @see JRos2ClientFactory
  * @author lambdaprime intid@protonmail.com
